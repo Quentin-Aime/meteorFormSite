@@ -1,8 +1,8 @@
-import { Template } from 'meteor/templating';
+// import { Template } from 'meteor/templating';
 
 import './main.html';
-import './form.html';
-import './userList.html';
+import './Form/form.html';
+import './UserList/userList.html';
 
-import './form';
-import './user';
+import './Form/form';
+import './UserList/userList';
