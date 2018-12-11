@@ -1,6 +1,6 @@
 import { Template } from 'meteor/templating';
 import './userList.scss';
-import userList from "./../../Imports/db/user.js";
+import user from './../../Imports/db/user.js';
 
 Template.userList.helpers (
     {
