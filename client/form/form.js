@@ -1,5 +1,5 @@
 import { Template } from 'meteor/templating';
-import user from '../Imports/db/user';
+import user from './../../Imports/db/user';
 
 Template.form.events (
     {
