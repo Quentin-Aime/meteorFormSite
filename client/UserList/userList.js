@@ -4,7 +4,7 @@ import user from './../../Imports/db/user.js';
 
 Template.userList.helpers (
     {
-        users : function()
+        user : function()
         {
             return user.find();
         }
