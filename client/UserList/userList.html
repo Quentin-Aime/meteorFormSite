@@ -1,9 +1,11 @@
 <template name="userList">
     <div class="userList">
         <div class="grid">
-            <span class="firstname"></span>
-            <span class="lastname"></span>
-            <span class="link"></span>
+            {{#each user }}
+                <div class="firstname">{{user.firstName}}</div>
+                <div class="lastname">{{user.lastName}}</div>
+                <div class="link">{{user.link}}</div>
+            {{/each }}
         </div>
     </div>
 </template>
